@@ -52,8 +52,8 @@ body {
   display: grid;
   -ms-grid-columns: (25%)[4];
       grid-template-columns: repeat(4, 25%);
-  -ms-grid-rows: (1fr)[2];
-      grid-template-rows: repeat(2, 1fr);
+  -ms-grid-rows: (50%)[2];
+      grid-template-rows: repeat(2, 50%);
   gap: 30px;
 }
 
@@ -131,7 +131,6 @@ ul li a:focus {
 }
 
 .infomatic-box {
-  background-color: var(--light-red-work);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -144,6 +143,30 @@ ul li a:focus {
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
   position: relative;
+}
+
+.work-box {
+  background-color: var(--light-red-work);
+}
+
+.play-box {
+  background-color: var(--soft-blue-play);
+}
+
+.study-box {
+  background-color: var(--light-red-study);
+}
+
+.exercise-box {
+  background-color: var(--lime-green-exercise);
+}
+
+.social-box {
+  background-color: var(--violet-social);
+}
+
+.self-care-box {
+  background-color: var(--soft-orange-self-care);
 }
 
 .box-top-section {

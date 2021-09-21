@@ -43,7 +43,7 @@ body {
   width: 75%;
   display: grid;
   grid-template-columns: repeat(4, 25%);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 50%);
   gap: 30px;
 }
 
@@ -115,7 +115,6 @@ ul li {
 }
 
 .infomatic-box {
-  background-color: var(--light-red-work);
   display: flex;
   flex-direction: column;
   border-top-right-radius: 10px;
@@ -123,6 +122,30 @@ ul li {
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
   position: relative;
+}
+
+.work-box {
+  background-color: var(--light-red-work);
+}
+
+.play-box {
+  background-color: var(--soft-blue-play);
+}
+
+.study-box {
+  background-color: var(--light-red-study);
+}
+
+.exercise-box {
+  background-color: var(--lime-green-exercise);
+}
+
+.social-box {
+  background-color: var(--violet-social);
+}
+
+.self-care-box {
+  background-color: var(--soft-orange-self-care);
 }
 
 .box-top-section {
