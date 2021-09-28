@@ -31,9 +31,9 @@
           </div>
           <div class="bottom-container">
             <ul>
-              <li><a href="">Daily</a></li>
-              <li><a href="">Weekly</a></li>
-              <li><a href="">Monthly</a></li>
+              <li><a id="dailyBtn" href="#" onclick="displayDaily();return false;">Daily</a></li>
+              <li><a id="weeklyBtn" href="#" onclick="displayWeekly();return false">Weekly</a></li>
+              <li><a id="monthlyBtn" href="#" onclick="displayMonthly();return false">Monthly</a></li>
             </ul>
           </div>
         </div>
@@ -47,8 +47,8 @@
               <img src="./images/icon-ellipsis.svg" alt="more-options" />
             </div>
             <div class="time-info">
-              <h4 class="current-time">32hrs</h4>
-              <p class="previous-time">Last Week - 36hrs</p>
+              <h4 id="work-current" class="current-time">32hrs</h4>
+              <p id="work-previous" class="previous-time">Last Week - 36hrs</p>
             </div>
           </div>
         </div>
@@ -62,8 +62,8 @@
               <img src="./images/icon-ellipsis.svg" alt="more-options" />
             </div>
             <div class="time-info">
-              <h4 class="current-time">32hrs</h4>
-              <p class="previous-time">Last Week - 36hrs</p>
+              <h4 id="play-current" class="current-time">32hrs</h4>
+              <p id="play-previous" class="previous-time">Last Week - 36hrs</p>
             </div>
           </div>
         </div>
@@ -77,8 +77,8 @@
               <img src="./images/icon-ellipsis.svg" alt="more-options" />
             </div>
             <div class="time-info">
-              <h4 class="current-time">32hrs</h4>
-              <p class="previous-time">Last Week - 36hrs</p>
+              <h4 id="study-current" class="current-time">32hrs</h4>
+              <p id="study-previous" class="previous-time">Last Week - 36hrs</p>
             </div>
           </div>
         </div>
@@ -92,8 +92,8 @@
               <img src="./images/icon-ellipsis.svg" alt="more-options" />
             </div>
             <div class="time-info">
-              <h4 class="current-time">32hrs</h4>
-              <p class="previous-time">Last Week - 36hrs</p>
+              <h4 id="exercise-current" class="current-time">32hrs</h4>
+              <p id="exercise-previous" class="previous-time">Last Week - 36hrs</p>
             </div>
           </div>
         </div>
@@ -107,8 +107,8 @@
               <img src="./images/icon-ellipsis.svg" alt="more-options" />
             </div>
             <div class="time-info">
-              <h4 class="current-time">32hrs</h4>
-              <p class="previous-time">Last Week - 36hrs</p>
+              <h4 id="social-current" class="current-time">32hrs</h4>
+              <p id="social-previous" class="previous-time">Last Week - 36hrs</p>
             </div>
           </div>
         </div>
@@ -122,14 +122,13 @@
               <img src="./images/icon-ellipsis.svg" alt="more-options" />
             </div>
             <div class="time-info">
-              <h4 class="current-time">32hrs</h4>
-              <p class="previous-time">Last Week - 36hrs</p>
+              <h4 id="self-care-current" class="current-time">32hrs</h4>
+              <p id="self-care-previous" class="previous-time">Last Week - 36hrs</p>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- <script type="text/javascript" src="./data.json"></script> -->
     <script type="text/javascript" src="./main.js"></script>
   </body>
 </html>
