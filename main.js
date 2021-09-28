@@ -10,5 +10,31 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function displayTime (data) {
       
+
+    //create DOM elements
+    const workCurrent = document.getElementById("work-current");
+    const workPrevious = document.getElementById("work-previous");
+    const playCurrent = document.getElementById("play-current");
+    const playPrevious = document.getElementById("play-previous");
+    const studyCurrent = document.getElementById("study-current");
+    const studyPrevious = document.getElementById("study-previous");
+    const exerciseCurrent = document.getElementById("exercise-current");
+    const exercisePrevious = document.getElementById("exercise-previous");
+    const socialCurrent = document.getElementById("social-current");
+    const socialPrevious = document.getElementById("social-previous");
+    const selfCareCurrent = document.getElementById("self-care-current");
+    const selfCarePrevious = document.getElementById("self-care-previous");
+
+    function displayDaily(){
+
+    }
+
+    function displayWeekly(){
+
+    }
+
+    function displayMonthly(){
+      
+    }
   }
 });
