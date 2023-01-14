@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     fetch("./data.json")
     .then((response) => response.json())
     .then(data => displayTime(data))
+    console.log(data[0].timeframes.daily.current + "hrs")
   }
 
   function displayTime (data) {
@@ -25,8 +26,10 @@ document.addEventListener("DOMContentLoaded", () => {
     const selfCareCurrent = document.getElementById("self-care-current");
     const selfCarePrevious = document.getElementById("self-care-previous");
 
-    function displayDaily(){
+  }
 
+      function displayDaily(){
+      workCurrent.textContent = data[0].timeframes.daily.current + "hrs";
     }
 
     function displayWeekly(){
@@ -36,5 +39,5 @@ document.addEventListener("DOMContentLoaded", () => {
     function displayMonthly(){
       
     }
-  }
+  fetchData();
 });
